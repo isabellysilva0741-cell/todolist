@@ -3,12 +3,23 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>lista de tarefa com js</title>
 </head>
 
 <body>
+    <form id="todo-form">
+        <fieldset>
+            <label for="title">Nova tarefa</label>
+            <br />
+            <input type="text" id="title" name="title" required />
+        </fieldset>
+
+        <button type="submit">adicionar</button>
+    </form>
+
     <ul id="todo-list"></ul>
-    <script src= "script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
